@@ -1,0 +1,10 @@
+name: DiamondEconomy
+version: ${project.version}
+main: org.abyssmc.diamondeconomy.DiamondEconomy
+api-version: 1.16
+depend: [ Vault ]
+commands:
+  deposit:
+    description: Converts diamonds into balance
+  withdraw:
+    description: Converts balance into diamonds
